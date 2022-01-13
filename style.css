@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Prisma";
+    src: url("fonts/Prisma.otf") format("opentype"), url("fonts/Prisma.ttf") format("truetype");;
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.title {
+    font-family: Prisma;
+    font-size: 8em;
+    font-weight: normal;
+
+    background: linear-gradient(to right, rgb(199, 27, 133),rgb(94, 62, 238), rgb(175, 47, 207));
+    background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
